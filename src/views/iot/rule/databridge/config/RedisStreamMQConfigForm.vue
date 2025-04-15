@@ -1,7 +1,7 @@
 <!-- TODO @puhui999：去掉 MQ 关键字哈 -->
 <template>
   <el-form-item label="主机地址" prop="config.host">
-    <el-input v-model="config.host" placeholder="请输入主机地址，如：47.117.190.167" />
+    <el-input v-model="config.host" placeholder="请输入主机地址，如：localhost" />
   </el-form-item>
   <el-form-item label="端口" prop="config.port">
     <el-input-number
