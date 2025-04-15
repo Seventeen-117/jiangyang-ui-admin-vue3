@@ -9,5 +9,5 @@ services:
     ports:
       - "80:80"
     environment:
-      - API_URL=http://localhost:48080 # 修改为实际的后端API地址
+      - API_URL=http://47.117.190.167:48080 # 修改为实际的后端API地址
     restart: unless-stopped 

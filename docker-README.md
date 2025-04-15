@@ -34,7 +34,7 @@ docker run -d --name jiangyang-ui-admin -p 80:80 -e API_URL=http://your-api-serv
 
 支持以下环境变量来定制容器行为：
 
-- `API_URL`: 后端 API 服务器地址 (默认为 `http://localhost:48080`)
+- `API_URL`: 后端 API 服务器地址 (默认为 `http://47.117.190.167:48080`)
 
 ## 部署到生产环境
 
