@@ -29,7 +29,7 @@ COPY --from=build-stage /app/dist-prod /usr/share/nginx/html
 COPY build/nginx.conf /etc/nginx/templates/default.conf.template
 
 # Set default environment variable for API URL
-ENV API_URL=http://47.117.35.218:30347
+ENV API_URL=http://47.117.35.218:31029
 
 # Expose port 80
 EXPOSE 80
